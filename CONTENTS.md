@@ -202,4 +202,72 @@ CONTENTS
 		10.4.5. 故障反应	 
 		>Fault reaction
 
+11. 因素组/影响参数/影响因子  *（？歧义*
+    >FACTOR GROUP  
+  
+    11.1. 一般信息  
+    >General information  
+    
+        11.1.1. 因素/参数/影响因子  *（？歧义*
+        >Factors  
+        
+        11.1.2. 物理/物理单位 和内部单位之间的关系  *（？歧义*
+        >Relationship between physical and internal units  
+        
+    11.2. 对象字典条目/对象字典映射表  
+    >Object dictionary entries  
+        
+        11.2.1. 本章定义的对象  
+        >Objects defined in this chapter  
+    
+    11.3. 对象描述  
+    >Object description  
+    
+        11.3.1. 对象6089h：位置符号索引  *（？歧义*
+        >Object 6089h: Position notation index  
+        
+        11.3.2. 对象608Ah：位置尺寸索引  *（？歧义*
+        >Object 608Ah: Position dimension index  
+        
+        11.3.3. 对象608Bh：速度符号索引  *（？歧义*
+        >Object 608Bh: Velocity notation index  
+        
+        11.3.4. 对象608C h：速度尺寸指数  *（？歧义*
+        >Object 608C h: Velocity dimension index  
+        
+        11.3.5. 对象608D h：加速度表示法指数  *（？歧义*
+        >Object 608D h: Acceleration notation index  
+        
+        11.3.6. 对象608Eh：加速尺寸指数  *（？歧义*
+        >Object 608Eh: Acceleration dimension index  
+        
+        11.3.7. 对象608Fh：位置编码器分辨率  
+        >Object 608Fh: Position encoder resolution  
+        
+        11.3.8. 对象6090h：速度编码器分辨率  
+        >Object 6090h: Velocity encoder resolution  
+        
+        11.3.9. 对象6091h：齿轮比  
+        >Object 6091h: Gear ratio  
+        
+        11.3.10. 对象6092h：进给常数.​​  
+        >Object 6092h: Feed constant  
+        
+        11.3.11. 对象6093h：位置因子  
+        >Object 6093h: Position factor  
+        
+        11.3.12. 对象6094h：速度编码器因子  
+        >Object 6094h: Velocity encoder factor  
+        
+        11.3.13. 对象6095h：速度因子1  
+        >Object 6095h: Velocity factor 1  
+        
+        11.3.14. 物体6096h：速度因子2  
+        >Object 6096h: Velocity factor 2  
+        
+        11.3.15. 对象6097h：加速因子  
+        >Object 6097h: Acceleration factor  
+        
+        11.3.16. 对象607Eh：极性  
+        >Object 607Eh: Polarity  
 
