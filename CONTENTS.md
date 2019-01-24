@@ -3,13 +3,19 @@ CONTENTS
 
 #### 1. 范围
 	>SCOPE 
+	
 ---
+
 #### 2. 参考文件/引用 
 	>REFERENCES 
+	
 ---
+
 #### 3. 定义和缩写 
 	>DEFINITIONS AND ABBREVIATION 
+	
 ---
+
 #### 4. 概述
 	>OVERVIEW
 
@@ -18,7 +24,9 @@ CONTENTS
 
 	4.2. 驱动器架构 
 	>Architecture of the drive 
+	
 ---
+
 #### 5. 工作原理  
 	>OPERATING PRINCIPLE
 
@@ -33,7 +41,9 @@ CONTENTS
 	
 		5.3.1. 索引和子索引的使用 
 		>Index and sub-index usage 
+		
 ---
+
 #### 6. 紧急消息 
 	>EMERGENCY MESSAGES. 
  
@@ -42,7 +52,9 @@ CONTENTS
 
 	6.2. 错误代码 
 	>Error codes 
+	
 ---
+
 #### 7. 预解释 
 	>PREDEFINITIONS 
 
@@ -66,10 +78,14 @@ CONTENTS
 		
 		7.2.2. 发送pdo 
 		>Transmit PDOs 
+		
 ---
+
 #### 8. 对象字典 
 	>OBJECT DICTIONARY 
+	
 ---
+
 #### 9. 共同条目/常见条目 
 	>COMMON ENTRIES
 	
@@ -138,7 +154,9 @@ CONTENTS
 
 		9.3.16. 对象60FE h：数字输出  
 		>Object 60FE h : Digital outputs
+		
 ---
+
 #### 10. 设备控制  
 	>DEVICE CONTROL
 
@@ -201,7 +219,9 @@ CONTENTS
 
 		10.4.5. 故障反应	 
 		>Fault reaction
+		
 ---
+
 #### 11. 因素组/影响参数/影响因子  *（？歧义*
 	>FACTOR GROUP  
   
@@ -271,3 +291,119 @@ CONTENTS
         11.3.16. 对象607Eh：极性  
         >Object 607Eh: Polarity  
 ---
+
+#### 12. 轮廓位置模式
+	>PROFILE POSITION MODE  
+
+	12.1. 一般信息
+		>General information  
+
+		12.1.1. 输入数据描述
+			>Input data description  
+
+		12.1.2. 输出数据说明
+			>Output data description  
+
+		12.1.3. 内部状态
+			>Internal states  
+
+	12.2. 对象字典条目
+	>Object dictionary entries  
+
+		12.2.1. 本章定义的对象
+			>Objects defined in this chapter  
+
+		12.2.2. 其他章节中定义的对象
+			>Objects defined in other chapters  
+
+	12.3. 对象描述
+	>Object description  
+
+		12.3.1. 对象607Ah：目标位置
+			>Object 607Ah: Target position  
+
+		12.3.2. 对象607Bh：位置范围限制
+			>Object 607Bh: Position range limit  
+
+		12.3.3. 对象607Dh：软件位置限制
+			>Object 607Dh: Software position limit  
+
+		12.3.4. 对象607Fh：最大轮廓速度
+			>Object 607Fh: Max profile velocity  
+
+		12.3.5. 对象6080h：最大电机速度
+			>Object 6080h: Max motor speed  
+
+		12.3.6. 对象6081h：轮廓速度
+			>Object 6081h: Profile velocity  
+
+		12.3.7. 对象6082h：结束速度
+			>Object 6082h: End velocity  
+
+		12.3.8. 对象6083h：轮廓加速度
+			>Object 6083h: Profile acceleration  
+
+		12.3.9. 对象6084h：轮廓减速
+			>Object 6084h: Profile deceleration  
+
+		12.3.10. 对象6085h：快速停止减速
+			>Object 6085h: Quick stop deceleration  
+
+		12.3.11. 对象6086h：运动配置文件类型
+			>Object 6086h: Motion profile type  
+
+		12.3.12. 对象60C5h：最大加速度
+			>Object 60C5h: Max acceleration  
+
+		12.3.13. 对象60C6h：最大减速度
+			>Object 60C6h: Max deceleration  
+
+	12.4. 功能描述
+	>Functional description  
+
+---
+
+#### 13.  回归/回原模式
+	>HOMING MODE  
+
+    13.1. 一般信息
+        >General information  
+
+        13.1.1. 输入数据描述
+            >Input data description  
+
+        13.1.2. 输出数据说明
+            >Output data description  
+
+        13.1.3. 内部状态
+            >Internal states  
+
+    13.2. 对象字典条目
+        >Object dictionary entries  
+
+        13.2.1. 本章定义的对象
+            >Objects defined in this chapter  
+
+        13.2.2. 其他章节中定义的对象
+            >Objects defined in other chapters  
+
+    13.3. 对象描述
+        >Object description  
+
+        13.3.1. 对象607Ch：原点偏移
+            >Object 607Ch: Home offset  
+
+        13.3.2. 对象6098h：回归/回原方法
+            >Object 6098h: Homing method  
+
+        13.3.3. 对象6099h：回归/回原速度
+            >Object 6099h: Homing speeds  
+
+        13.3.4. 对象609Ah：回归/回原加速度
+            >Object 609Ah: Homing acceleration  
+
+    13.4. 功能描述
+        >Functional description  
+
+        13.4.1. 回归/回原方法
+            >Homing methods 
