@@ -51,15 +51,34 @@ CONTENTS
     - [14.2. 对象字典条目](#142-对象字典条目)
     - [14.3. 对象描述](#143-对象描述)
     - [14.4. 功能说明](#144-功能说明)
-- [15 插补/插值位置模式](#15-插补插值位置模式)
+- [15 插补/插值位置模式  *（？歧义*](#15-插补插值位置模式--歧义)
     - [15.1 一般信息](#151-一般信息)
     - [15.2 复合数据类型](#152-复合数据类型)
     - [15.3 对象字典条目](#153-对象字典条目)
     - [15.4 对象描述](#154-对象描述)
     - [15.5 功能描述](#155-功能描述)
+- [16.轮廓速度模式](#16轮廓速度模式)
+    - [16.1. 一般信息](#161-一般信息)
+    - [16.2. 对象字典条目](#162-对象字典条目)
+    - [16.3. 对象描述](#163-对象描述)
+    - [16.4. 功能说明](#164-功能说明)
+- [17.轮廓扭矩模式](#17轮廓扭矩模式)
+    - [17.1. 一般信息](#171-一般信息)
+    - [17.2. 对象字典条目](#172-对象字典条目)
+    - [17.3. 对象描述](#173-对象描述)
+- [18.速度模式](#18速度模式)
+    - [18.1. 一般说明](#181-一般说明)
+    - [18.2. 复合数据类型](#182-复合数据类型)
+    - [18.3. 对象字典条目](#183-对象字典条目)
+    - [18.4. 对象描述](#184-对象描述)
+    - [18.5. 功能说明](#185-功能说明)
+- [19.附录](#19附录)
+    - [19.1. 对象字典](#191-对象字典)
+    - [19.2. 对象字典的索引](#192-对象字典的索引)
+    - [19.3. 对象字典的名称](#193-对象字典的名称)
+    - [19.4. 符号和单位的定义](#194-符号和单位的定义)
 
 <!-- /TOC -->
-
 ---
 
 ## 1. 范围								 
@@ -327,19 +346,19 @@ CONTENTS
 		11.3.1. 对象6089h：位置符号索引  *（？歧义*
 		>Object 6089h: Position notation index  
 		
-		11.3.2. 对象608Ah：位置尺寸索引  *（？歧义*
+		11.3.2. 对象608Ah：位置单位索引  *（？歧义*
 		>Object 608Ah: Position dimension index  
 		
 		11.3.3. 对象608Bh：速度符号索引  *（？歧义*
 		>Object 608Bh: Velocity notation index  
 		
-		11.3.4. 对象608C h：速度尺寸指数  *（？歧义*
+		11.3.4. 对象608C h：速度单位指数索引  *（？歧义*
 		>Object 608C h: Velocity dimension index  
 		
-		11.3.5. 对象608D h：加速度表示法指数  *（？歧义*
+		11.3.5. 对象608D h：加速度表示法指数索引  *（？歧义*
 		>Object 608D h: Acceleration notation index  
 		
-		11.3.6. 对象608Eh：加速尺寸指数  *（？歧义*
+		11.3.6. 对象608Eh：加速单位指数索引  *（？歧义*
 		>Object 608Eh: Acceleration dimension index  
 		
 		11.3.7. 对象608Fh：位置编码器分辨率  
@@ -633,3 +652,339 @@ CONTENTS
 [返回目录](#目录) 
   
 ---
+
+##  16.轮廓速度模式  
+	>PROFILE VELOCITY MODE  
+  
+###		 16.1. 一般信息  
+	>General Information  
+
+		16.1.1. 输入数据描述  
+		>Input data description  
+  
+		16.1.2. 输出数据描述  
+		>Output data description  
+  
+		16.1.3. 内部状态  
+		>Internal states  
+  
+###		 16.2. 对象字典条目  
+	> Object dictionary entries  
+  
+		16.2.1. 本章定义的对象  
+		>Objects defined in this chapter  
+  
+		16.2.2. 其他章节中定义的对象  
+		>Objects defined in other chapters  
+  
+###		 16.3. 对象描述  
+	>Object description  
+  
+		16.3.1. 对象6069h：速度传感器实际值  
+		>Object 6069h: Velocity sensor actual value  
+  
+		16.3.2. 对象606Ah：传感器选择代码  
+		>Object 606Ah: Sensor selection code  
+  
+		16.3.3. 对象606Bh：速度需求值  
+		>Object 606Bh: Velocity demand value  
+  
+		16.3.4. 对象606Ch：速度实际值  
+		>Object 606Ch: Velocity actual value  
+  
+		16.3.5. 对象606Dh：速度窗口  
+		>Object 606Dh: Velocity window  
+  
+		16.3.6. 对象606Eh：速度窗口时间  
+		>Object 606Eh: Velocity window time  
+  
+		16.3.7. 对象606Fh：速度阈值  
+		> Object 606Fh: Velocity threshold  
+  
+		16.3.8. 对象6070h：速度阈值时间  
+		>Object 6070h: Velocity threshold time  
+  
+		16.3.9. 对象60FFh：目标速度  
+		>Object 60FFh: Target velocity  
+  
+		16.3.10. 对象60F8h：最大滑点  
+		>Object 60F8h: Max slippage  
+  
+		16.3.11. 对象60F9h：速度控制参数集  
+		>Object 60F9h: Velocity control parameter set  
+  
+###		 16.4. 功能说明  
+	>Functional description  
+  
+[返回目录](#目录) 
+  
+---
+
+
+##  17.轮廓扭矩模式  
+	>PROFILE TORQUE MODE  
+  
+###		 17.1. 一般信息  
+	>General information  
+  
+		17.1.1. 内部状态  
+		>Internal states  
+  
+###		 17.2. 对象字典条目  
+	>Object dictionary entries  
+  
+		17.2.1. 本章定义的对象  
+		>Objects defined in this chapter  
+  
+		17.2.2. 其他章节中定义的对象  
+		> Objects defined in other chapters  
+  
+###		 17.3. 对象描述  
+	>Object description  
+  
+		17.3.1. 对象6071h：目标扭矩  
+		>Object 6071h: Target torque  
+  
+		17.3.2. 对象6072h：最大扭矩  
+		>Object 6072h: Max torque  
+  
+		17.3.3. 对象6073h：最大电流  
+		>Object 6073h: Max current  
+  
+		17.3.4. 对象6074h：扭矩需求值  
+		>Object 6074h: Torque demand value  
+  
+		17.3.5. 对象6075h：电机额定电流  
+		>Object 6075h: Motor rated current  
+  
+		17.3.6. 对象6076h：电机额定转矩  
+		>Object 6076h: Motor rated torque  
+  
+		17.3.7. 对象6077h：扭矩实际值  
+		>Object 6077h: Torque actual value  
+  
+		17.3.8. 对象6078h：当前实际扭矩值  
+		>Object 6078h: Current actual value  
+  
+		17.3.9. 对象6079h：直流链路电路电压  
+		>Object 6079h: DC link circuit voltage  
+  
+		17.3.10. 对象6087h：扭矩斜率  
+		>Object 6087h: Torque slope  
+  
+		17.3.11. 对象6088h：扭矩配置文件类型  
+		>Object 6088h: Torque profile type  
+  
+		17.3.12. 对象60F7h：功率级参数  
+		> Object 60F7h: Power stage parameters  
+  
+		17.3.13. 对象60F6h：转矩控制参数  
+		>Object 60F6h: Torque control parameters  
+  
+[返回目录](#目录) 
+  
+---
+
+
+##  18.速度模式  
+	>VELOCITY MODE  
+  
+###		 18.1. 一般说明  
+		>General description  
+  
+		18.1.1. 输入数据描述  
+		>Input data description  
+  
+		18.1.2. 输出数据描述  
+		>Output data description  
+  
+		18.1.3. 速度模式的结构  
+		>Structure of the velocity mode  
+  
+		18.1.4. 子功能描述  
+		>Subfunction description  
+  
+		18.1.5. 内部状态  
+		>Internal states  
+  
+###		 18.2. 复合数据类型  
+	>Complex data types  
+  
+		18.2.1.  vl速度加速减速记录  
+		>vl velocity acceleration deceleration record  
+  
+###		 18.3. 对象字典条目  
+	>Object dictionary entries  
+  
+		18.3.1. 本章定义的对象  
+		>Objects defined in this chapter  
+  
+		18.3.2. 其他章节中定义的对象  
+		>Objects defined in other chapters  
+  
+###		 18.4. 对象描述  
+	>Object description  
+  
+		18.4.1. 对象6042h：vl目标速度  
+		>Object 6042h: vl target velocity  
+  
+		18.4.2. 对象6043h：vl速度需求  
+		>Object 6043h: vl velocity demand  
+  
+		18.4.3. 对象6053h：vl百分比需求  
+		>Object 6053h: vl percentage demand  
+  
+		18.4.4. 对象6054h：vl实际百分比  
+		>Object 6054h: vl actual percentage  
+  
+		18.4.5. 对象6055h：vl操纵百分比  
+		>Object 6055h: vl manipulated percentage  
+
+		18.4.6. 对象604Eh：vl速度参考  
+		>Object 604Eh: vl velocity reference  
+  
+		18.4.7. 对象604Ch：vl单位因子  
+		>Object 604Ch: vl dimension factor  
+  
+		18.4.8. 对象604Bh：vl设定点因子  
+		>Object 604Bh: vl setpoint factor  
+  
+		18.4.9. 对象604Dh：vl极数  
+		>Object 604Dh: vl pole number  
+  
+		18.4.10. 对象6046h：vl速度最小最大量  
+		>Object 6046h: vl velocity min max amount  
+  
+		18.4.11. 对象6047h：vl速度最小值  
+		>Object 6047h: vl velocity min max  
+  
+		18.4.12. 对象6058h：vl频率电机最小最大量  
+		>Object 6058h: vl frequency motor min max amount  
+  
+		18.4.13.对象6059h：vl频率电动机最大最大值  
+		>Object 6059h: vl frequency motor min max  
+  
+		18.4.14. 对象6056h：vl速度电机最小最大量  
+		>Object 6056h: vl velocity motor min max amount  
+  
+		18.4.15. 对象6057h：vl速度电机最大最大值  
+		>Object 6057h: vl velocity motor min max  
+  
+		18.4.16. 对象6048h：vl速度加速度  
+		>Object 6048h: vl velocity acceleration  
+  
+		18.4.17. 对象6049h：vl速度减速度 
+		>Object 6049h: vl velocity deceleration  
+  
+		18.4.18. 对象604Ah：vl快速停止速度  
+		>Object 604Ah: vl velocity quick stop  
+  
+		18.4.19. 对象604Fh：vl斜坡函数时间  
+		>Object 604Fh: vl ramp function time  
+  
+		18.4.20. 对象6050h：vl减速时间  
+		>Object 6050h: vl slow down time  
+  
+		18.4.21. 对象6051h：vl快速停止时间  
+		>Object 6051h: vl quick stop time  
+  
+		18.4.22. 对象6044h：vl控制工作  
+		>Object 6044h: vl control effort  
+  
+		18.4.23. 对象6045h：vl操纵速度  
+		>Object 6045h: vl manipulated velocity  
+  
+		18.4.24. 对象6052h：vl名义百分比  
+		>Object 6052h: vl nominal percentage  
+  
+###		 18.5. 功能说明  
+	>Functional description  
+  
+		18.5.1. 百分比函数  
+		>Percentage function  
+  
+		18.5.2. 因子函数和反向因子函数  
+		>Factor function and reverse factor function  
+  
+		18.5.3. 极数功能  
+		>Pole number function  
+  
+		18.5.4. 速度限制功能  
+		>Velocity limit function  
+  
+		18.5.5. 速度电机限制功能  
+		>Velocity motor limit function  
+  
+		18.5.6. 斜率/斜坡功能  
+		>Ramp function  
+  
+		18.5.7. 最小斜率/斜坡功能  
+		>Ramp min function  
+  
+		18.5.8. 参考计算  
+		>Reference calculation  
+  
+		18.5.9. 闭环开环控制功能  
+		>Closed open loop control function  
+  
+[返回目录](#目录) 
+  
+---
+
+
+##  19.附录  
+	>APPENDIX  
+  
+###		 19.1. 对象字典  
+	>Object dictionary by chapter  
+  
+		19.1.1. 常见条目  
+		>Common Entries  
+
+		19.1.2. 设备控制  
+		>Device Control  
+  
+		19.1.3. 因素组  
+		>Factor Group  
+  
+		19.1.4. 轮廓位置模式  
+		>Profile Position Mode  
+  
+		19.1.5. 回原模式  
+		>Homing Mode  
+  
+		19.1.6. 位置控制功能  
+		>Position control function  
+  
+		19.1.7. 插值位置模式  
+		>Interpolated position mode  
+  
+		19.1.8. 轮廓速度模式  
+		>Profile velocity mode  
+  
+		19.1.9. 轮廓扭矩模式  
+		>Profile Torque Mode  
+  
+		19.1.10. 速度模式  
+		>Velocity Mode  
+  
+###		 19.2. 对象字典的索引  
+	>Object dictionary by index  
+  
+###		 19.3. 对象字典的名称  
+	>Object dictionary by name  
+  
+###		 19.4. 符号和单位的定义   
+	>Definition of dimension indices  
+  
+		19.4.1. 单位索引表  
+		>Dimension index table  
+  
+		19.4.2. 符号索引表  
+		>Notation index table 
+
+		
+[返回目录](#目录) 
+  
+---
+
