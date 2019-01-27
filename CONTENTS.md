@@ -5,6 +5,7 @@ CONTENTS
 
 <!-- TOC -->
 
+- [目录](#目录)
 - [1. 范围](#1-范围)
 - [2. 参考文件/引用](#2-参考文件引用)
 - [3. 定义和缩写](#3-定义和缩写)
@@ -50,6 +51,12 @@ CONTENTS
     - [14.2. 对象字典条目](#142-对象字典条目)
     - [14.3. 对象描述](#143-对象描述)
     - [14.4. 功能说明](#144-功能说明)
+- [15 插补/插值位置模式](#15-插补插值位置模式)
+    - [15.1 一般信息](#151-一般信息)
+    - [15.2 复合数据类型](#152-复合数据类型)
+    - [15.3 对象字典条目](#153-对象字典条目)
+    - [15.4 对象描述](#154-对象描述)
+    - [15.5 功能描述](#155-功能描述)
 
 <!-- /TOC -->
 
@@ -555,6 +562,73 @@ CONTENTS
 		
 ### 	14.4. 功能说明
 	>Functional description 
+
+[返回目录](#目录) 
+  
+---
+
+## 15 插补/插值位置模式  *（？歧义*  
+>INTERPOLATED POSITION MODE
+  
+### 	15.1 一般信息  
+	>General information   
+	
+		15.1.1 输入数据描述  
+		>Input data description  
+		
+		15.1.2 输出数据描述  
+		>Output data description   
+		
+		15.1.3 内部状态  
+		>Internal states  
+		
+### 	15.2 复合数据类型  
+	>Complex data types   
+	
+		15.2.1 插值时间周期记录  *（？歧义*   
+		>Interpolation time period record  
+		
+		15.2.2 插值数据配置记录  
+		>Interpolation data configuration record  
+		
+### 	15.3 对象字典条目  
+	>Object dictionary entries  
+	
+		15.3.1 本章定义的对象  
+		>Objects defined in this chapter  
+		
+		15.3.2 其他章节中定义的对象  
+		>Objects defined in other chapters  
+		
+### 	15.4 对象描述  
+	>Object descriptions   
+	
+		15.4.1 对象60C0h：插值子模式选择  
+		>Object h: Interpolation sub mode select   
+		
+		15.4.2 对象60C1h：插值数据记录  
+		>Object h: Interpolation data record  
+		
+		15.4.3 对象60C2h：插值时间周期  
+		>Object h: Interpolation time period   
+		
+		15.4.4 对象60C3h：插值同步定义  
+		>Object h: Interpolation sync definition  
+		
+		15.4.5 对象60C4h：插值数据配置  
+		>Object h: Interpolation data configuration   
+		
+### 	15.5 功能描述  
+	>Functional description   
+	
+		15.5.1 插值位置模式  
+		>Interpolated position mode   
+		
+		15.5.2 带有多个轴的线性插补位置模式  
+		>Linear interpolated position mode with several axles   
+		
+		15.5.3 插值位置模式的缓冲策略  
+		>Buffer strategies for the interpolated position mode  
 
 [返回目录](#目录) 
   
