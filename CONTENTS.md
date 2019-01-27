@@ -1,76 +1,107 @@
 CONTENTS
 ===
 
- 
---- 
-
-#### 目录
+\## 目录
   
 ---
 
+
 <!-- TOC -->
- [目录](#目录)  
- [1. 范围](#1-范围)  
- [2. 参考文件/引用](#2-参考文件引用)  
- [3. 定义和缩写](#3-定义和缩写)  
- [4. 概述](#4-概述)  
- [5. 工作原理](#5-工作原理)  
- [6. 紧急消息](#6-紧急消息)  
- [7. 预解释](#7-预解释)  
- [8. 对象字典](#8-对象字典)  
- [9. 共同条目/常见条目](#9-共同条目常见条目)  
- [10. 设备控制](#10-设备控制)  
- [11. 因素组/影响参数/影响因子  *（？歧义*](#11-因素组影响参数影响因子--歧义)  
- [12. 轮廓位置模式](#12-轮廓位置模式)  
- [13. 回归/回原模式](#13-回归回原模式)  
- [14. 位置控制功能](#14-位置控制功能)  
+
+- [1. 范围](#1-范围)
+- [2. 参考文件/引用](#2-参考文件引用)
+- [3. 定义和缩写](#3-定义和缩写)
+- [4. 概述](#4-概述)
+    - [4.1. 访问驱动器](#41-访问驱动器)
+    - [4.2. 驱动器架构](#42-驱动器架构)
+- [5. 工作原理](#5-工作原理)
+    - [5.1. 引言/介绍](#51-引言介绍)
+    - [5.2. 通过分析进行标准化](#52-通过分析进行标准化)
+    - [5.3. 对象字典](#53-对象字典)
+- [6. 紧急消息](#6-紧急消息)
+    - [6.1. 原则/原理 *（？歧义*](#61-原则原理-歧义)
+    - [6.2. 错误代码](#62-错误代码)
+- [7. 预解释](#7-预解释)
+    - [7.1. 预定义对象](#71-预定义对象)
+    - [7.2. PDO映射](#72-pdo映射)
+- [8. 对象字典](#8-对象字典)
+- [9. 共同条目/常见条目](#9-共同条目常见条目)
+    - [9.1. 一般信息](#91-一般信息)
+    - [9.2. 对象字典条目](#92-对象字典条目)
+    - [9.3. 对象描述](#93-对象描述)
+- [10. 设备控制](#10-设备控制)
+    - [10.1. 一般/通用信息](#101-一般通用信息)
+    - [10.2. 对象字典条目](#102-对象字典条目)
+    - [10.3. 对象描述](#103-对象描述)
+    - [10.4. 功能描述](#104-功能描述)
+- [11. 因素组/影响参数/影响因子  *（？歧义*](#11-因素组影响参数影响因子--歧义)
+    - [11.1. 一般信息](#111-一般信息)
+    - [11.2. 对象字典条目/对象字典映射表](#112-对象字典条目对象字典映射表)
+    - [11.3. 对象描述](#113-对象描述)
+- [12. 轮廓位置模式](#12-轮廓位置模式)
+    - [12.1. 一般信息](#121-一般信息)
+    - [12.2. 对象字典条目](#122-对象字典条目)
+    - [12.3. 对象描述](#123-对象描述)
+    - [12.4. 功能描述](#124-功能描述)
+- [13. 回归/回原模式](#13-回归回原模式)
+    - [13.1. 一般信息](#131-一般信息)
+    - [13.2. 对象字典条目](#132-对象字典条目)
+    - [13.3. 对象描述](#133-对象描述)
+    - [13.4. 功能描述](#134-功能描述)
+- [14. 位置控制功能](#14-位置控制功能)
+    - [14.1. 一般信息](#141-一般信息)
+    - [14.2. 对象字典条目](#142-对象字典条目)
+    - [14.3. 对象描述](#143-对象描述)
+    - [14.4. 功能说明](#144-功能说明)
+
+<!-- /TOC -->
 
 ---
 
-#### 1. 范围                                 
+## 1. 范围								 
 	>SCOPE 
 	
 [返回目录](#目录)  
   
 ---
 
-#### 2. 参考文件/引用 
+## 2. 参考文件/引用 
 	>REFERENCES 
 	
 [返回目录](#目录)  
   
 ---
 
-#### 3. 定义和缩写 
+## 3. 定义和缩写 
 	>DEFINITIONS AND ABBREVIATION 
 	
 [返回目录](#目录)  
   
 ---
 
-#### 4. 概述
+## 4. 概述
 	>OVERVIEW
 
-	4.1. 访问驱动器 
+### 	4.1. 访问驱动器 
 	>Access to the drive 
 
-	4.2. 驱动器架构 
+### 	4.2. 驱动器架构 
 	>Architecture of the drive 
 	
 [返回目录](#目录)  
   
 ---
 
-#### 5. 工作原理  
+## 5. 工作原理  
 	>OPERATING PRINCIPLE
 
-	5.1. 引言/介绍 
+### 	5.1. 引言/介绍 
 	>Introduction 
 	
-	5.2. 通过分析进行标准化 
+### 	5.2. 通过分析进行标准化 
 	>Standardization via profiling. 
 	
-	5.3. 对象字典 
+### 	5.3. 对象字典 
 	>The object dictionary 
 	
 		5.3.1. 索引和子索引的使用 
@@ -80,23 +111,23 @@ CONTENTS
   
 ---
 
-#### 6. 紧急消息 
+## 6. 紧急消息 
 	>EMERGENCY MESSAGES. 
  
-	6.1. 原则/原理 *（？歧义* 
+### 	6.1. 原则/原理 *（？歧义* 
 	>Principle 
 
-	6.2. 错误代码 
+### 	6.2. 错误代码 
 	>Error codes 
 	
 [返回目录](#目录)  
   
 ---
 
-#### 7. 预解释 
+## 7. 预解释 
 	>PREDEFINITIONS 
 
-	7.1. 预定义对象 
+### 	7.1. 预定义对象 
 	>Predefined objects 
 
 		7.1.1. 对象1000 h:设备类型
@@ -108,7 +139,7 @@ CONTENTS
 		7.1.3. 对象67FF h:单一设备类型 
 		>Object 67FF h : Single device type 
 	
-	7.2. PDO映射 
+### 	7.2. PDO映射 
 	>PDO mapping 
 	
 		7.2.1. 接收pdo 
@@ -121,17 +152,17 @@ CONTENTS
   
 ---
 
-#### 8. 对象字典 
+## 8. 对象字典 
 	>OBJECT DICTIONARY 
 	
 [返回目录](#目录)  
   
 ---
 
-#### 9. 共同条目/常见条目 
+## 9. 共同条目/常见条目 
 	>COMMON ENTRIES
 	
-	9.1. 一般信息
+### 	9.1. 一般信息
 	>General information 
 
 		9.1.1. 电机数据	
@@ -140,13 +171,13 @@ CONTENTS
 		9.1.2. 驱动数据	
 		>Drive data
 	
-	9.2. 对象字典条目	
+### 	9.2. 对象字典条目	
 	>Object dictionary entries
 
 		9.2.1本章定义的对象	 
 		>Objects defined in this chapter
 
-	9.3. 对象描述	 
+### 	9.3. 对象描述	 
 	>Object description
 
   		9.3.1. 对象6007 h：中止连接选项代​​码  
@@ -201,22 +232,22 @@ CONTENTS
   
 ---
 
-#### 10. 设备控制  
+## 10. 设备控制  
 	>DEVICE CONTROL
 
-	10.1. 一般/通用信息  
+### 	10.1. 一般/通用信息  
 	>General information	
 
 		10.1.1. 状态机   
 		> State machine
 
-	10.2. 对象字典条目	
+### 	10.2. 对象字典条目	
 	>Object dictionary entries
 
 		10.2.1本章定义的对象	 
 		>Objects defined in this chapter.
 
-	10.3. 对象描述	 
+### 	10.3. 对象描述	 
 	>Object description
 
 		10.3.1. 对象6040 h：控制字   
@@ -246,7 +277,7 @@ CONTENTS
 		10.3.9. 对象6061h：操作模式显示  
 		>Object 6061h : Modes of operation display
 
-	10.4. 功能描述	
+### 	10.4. 功能描述	
 	>Functional description
 
 		10.4.1. 操作模式功能  
@@ -268,82 +299,82 @@ CONTENTS
   
 ---
 
-#### 11. 因素组/影响参数/影响因子  *（？歧义*
+## 11. 因素组/影响参数/影响因子  *（？歧义*
 	>FACTOR GROUP  
   
-    11.1. 一般信息  
-    >General information  
-    
-        11.1.1. 因素/参数/影响因子  *（？歧义*
-        >Factors  
-        
-        11.1.2. 物理/物理单位 和内部单位之间的关系  *（？歧义*
-        >Relationship between physical and internal units  
-        
-    11.2. 对象字典条目/对象字典映射表  
-    >Object dictionary entries  
-        
-        11.2.1. 本章定义的对象  
-        >Objects defined in this chapter  
-    
-    11.3. 对象描述  
-    >Object description  
-    
-        11.3.1. 对象6089h：位置符号索引  *（？歧义*
-        >Object 6089h: Position notation index  
-        
-        11.3.2. 对象608Ah：位置尺寸索引  *（？歧义*
-        >Object 608Ah: Position dimension index  
-        
-        11.3.3. 对象608Bh：速度符号索引  *（？歧义*
-        >Object 608Bh: Velocity notation index  
-        
-        11.3.4. 对象608C h：速度尺寸指数  *（？歧义*
-        >Object 608C h: Velocity dimension index  
-        
-        11.3.5. 对象608D h：加速度表示法指数  *（？歧义*
-        >Object 608D h: Acceleration notation index  
-        
-        11.3.6. 对象608Eh：加速尺寸指数  *（？歧义*
-        >Object 608Eh: Acceleration dimension index  
-        
-        11.3.7. 对象608Fh：位置编码器分辨率  
-        >Object 608Fh: Position encoder resolution  
-        
-        11.3.8. 对象6090h：速度编码器分辨率  
-        >Object 6090h: Velocity encoder resolution  
-        
-        11.3.9. 对象6091h：齿轮比  
-        >Object 6091h: Gear ratio  
-        
-        11.3.10. 对象6092h：进给常数.​​  
-        >Object 6092h: Feed constant  
-        
-        11.3.11. 对象6093h：位置因子  
-        >Object 6093h: Position factor  
-        
-        11.3.12. 对象6094h：速度编码器因子  
-        >Object 6094h: Velocity encoder factor  
-        
-        11.3.13. 对象6095h：速度因子1  
-        >Object 6095h: Velocity factor 1  
-        
-        11.3.14. 物体6096h：速度因子2  
-        >Object 6096h: Velocity factor 2  
-        
-        11.3.15. 对象6097h：加速因子  
-        >Object 6097h: Acceleration factor  
-        
-        11.3.16. 对象607Eh：极性  
-        >Object 607Eh: Polarity  
+### 	11.1. 一般信息  
+	>General information  
+	
+		11.1.1. 因素/参数/影响因子  *（？歧义*
+		>Factors  
+		
+		11.1.2. 物理/物理单位 和内部单位之间的关系  *（？歧义*
+		>Relationship between physical and internal units  
+		
+### 	11.2. 对象字典条目/对象字典映射表  
+	>Object dictionary entries  
+		
+		11.2.1. 本章定义的对象  
+		>Objects defined in this chapter  
+	
+### 	11.3. 对象描述  
+	>Object description  
+	
+		11.3.1. 对象6089h：位置符号索引  *（？歧义*
+		>Object 6089h: Position notation index  
+		
+		11.3.2. 对象608Ah：位置尺寸索引  *（？歧义*
+		>Object 608Ah: Position dimension index  
+		
+		11.3.3. 对象608Bh：速度符号索引  *（？歧义*
+		>Object 608Bh: Velocity notation index  
+		
+		11.3.4. 对象608C h：速度尺寸指数  *（？歧义*
+		>Object 608C h: Velocity dimension index  
+		
+		11.3.5. 对象608D h：加速度表示法指数  *（？歧义*
+		>Object 608D h: Acceleration notation index  
+		
+		11.3.6. 对象608Eh：加速尺寸指数  *（？歧义*
+		>Object 608Eh: Acceleration dimension index  
+		
+		11.3.7. 对象608Fh：位置编码器分辨率  
+		>Object 608Fh: Position encoder resolution  
+		
+		11.3.8. 对象6090h：速度编码器分辨率  
+		>Object 6090h: Velocity encoder resolution  
+		
+		11.3.9. 对象6091h：齿轮比  
+		>Object 6091h: Gear ratio  
+		
+		11.3.10. 对象6092h：进给常数.​​  
+		>Object 6092h: Feed constant  
+		
+		11.3.11. 对象6093h：位置因子  
+		>Object 6093h: Position factor  
+		
+		11.3.12. 对象6094h：速度编码器因子  
+		>Object 6094h: Velocity encoder factor  
+		
+		11.3.13. 对象6095h：速度因子1  
+		>Object 6095h: Velocity factor 1  
+		
+		11.3.14. 物体6096h：速度因子2  
+		>Object 6096h: Velocity factor 2  
+		
+		11.3.15. 对象6097h：加速因子  
+		>Object 6097h: Acceleration factor  
+		
+		11.3.16. 对象607Eh：极性  
+		>Object 607Eh: Polarity  
 [返回目录](#目录)  
   
 ---
 
-#### 12. 轮廓位置模式
+## 12. 轮廓位置模式
 	>PROFILE POSITION MODE  
 
-	12.1. 一般信息
+### 	12.1. 一般信息
 		>General information  
 
 		12.1.1. 输入数据描述
@@ -355,7 +386,7 @@ CONTENTS
 		12.1.3. 内部状态
 			>Internal states  
 
-	12.2. 对象字典条目
+### 	12.2. 对象字典条目
 	>Object dictionary entries  
 
 		12.2.1. 本章定义的对象
@@ -364,7 +395,7 @@ CONTENTS
 		12.2.2. 其他章节中定义的对象
 			>Objects defined in other chapters  
 
-	12.3. 对象描述
+### 	12.3. 对象描述
 	>Object description  
 
 		12.3.1. 对象607Ah：目标位置
@@ -406,66 +437,66 @@ CONTENTS
 		12.3.13. 对象60C6h：最大减速度
 			>Object 60C6h: Max deceleration  
 
-	12.4. 功能描述
+### 	12.4. 功能描述
 	>Functional description  
 
 [返回目录](#目录)  
   
 ---
 
-#### 13. 回归/回原模式
+## 13. 回归/回原模式
 	>HOMING MODE  
 
-    13.1. 一般信息
-        >General information  
+### 	13.1. 一般信息
+		>General information  
 
-        13.1.1. 输入数据描述
-            >Input data description  
+		13.1.1. 输入数据描述
+			>Input data description  
 
-        13.1.2. 输出数据说明
-            >Output data description  
+		13.1.2. 输出数据说明
+			>Output data description  
 
-        13.1.3. 内部状态
-            >Internal states  
+		13.1.3. 内部状态
+			>Internal states  
 
-    13.2. 对象字典条目
-        >Object dictionary entries  
+### 	13.2. 对象字典条目
+		>Object dictionary entries  
 
-        13.2.1. 本章定义的对象
-            >Objects defined in this chapter  
+		13.2.1. 本章定义的对象
+			>Objects defined in this chapter  
 
-        13.2.2. 其他章节中定义的对象
-            >Objects defined in other chapters  
+		13.2.2. 其他章节中定义的对象
+			>Objects defined in other chapters  
 
-    13.3. 对象描述
-        >Object description  
+### 	13.3. 对象描述
+		>Object description  
 
-        13.3.1. 对象607Ch：原点偏移
-            >Object 607Ch: Home offset  
+		13.3.1. 对象607Ch：原点偏移
+			>Object 607Ch: Home offset  
 
-        13.3.2. 对象6098h：回归/回原方法
-            >Object 6098h: Homing method  
+		13.3.2. 对象6098h：回归/回原方法
+			>Object 6098h: Homing method  
 
-        13.3.3. 对象6099h：回归/回原速度
-            >Object 6099h: Homing speeds  
+		13.3.3. 对象6099h：回归/回原速度
+			>Object 6099h: Homing speeds  
 
-        13.3.4. 对象609Ah：回归/回原加速度
-            >Object 609Ah: Homing acceleration  
+		13.3.4. 对象609Ah：回归/回原加速度
+			>Object 609Ah: Homing acceleration  
 
-    13.4. 功能描述
-        >Functional description  
+### 	13.4. 功能描述
+		>Functional description  
 
-        13.4.1. 回归/回原方法
-            >Homing methods 
+		13.4.1. 回归/回原方法
+			>Homing methods 
 		
 [返回目录](#目录)  
   
 ---
 	
-#### 14. 位置控制功能  
+## 14. 位置控制功能  
 	>POSITION CONTROL FUNCTION
 
-	14.1. 一般信息  
+### 	14.1. 一般信息  
 	>General information 
 
 		14.1.1. 跟随/跟踪错误   
@@ -480,7 +511,7 @@ CONTENTS
 		14.1.4. 输出数据描述  
 		>Output data description 
 
-	14.2. 对象字典条目  
+### 	14.2. 对象字典条目  
 	>Object dictionary entries
 
 		14.2.1. 本章定义的对象  
@@ -489,7 +520,7 @@ CONTENTS
 		14.2.2. 其他章节中定义的对象  
 		>Objects defined in other chapters
 
-	14.3. 对象描述  
+### 	14.3. 对象描述  
 	>Object description
 
 		14.3.1. 对象6062h：位置需求值  
@@ -525,7 +556,7 @@ CONTENTS
 		14.3.11. 对象60FCh：位置需求值*  
 		>Object 60FCh: Position demand value*
 		
-	14.4. 功能说明
+### 	14.4. 功能说明
 	>Functional description 
 
 [返回目录](#目录) 
