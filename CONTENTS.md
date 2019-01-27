@@ -1,6 +1,25 @@
 CONTENTS
 ===
 
+<!-- TOC -->  
+ [1. 范围](#1-范围)  
+ [2. 参考文件/引用](#2-参考文件引用)  
+ [3. 定义和缩写](#3-定义和缩写)  
+ [4. 概述](#4-概述)  
+ [5. 工作原理](#5-工作原理)  
+ [6. 紧急消息](#6-紧急消息)  
+ [7. 预解释](#7-预解释)  
+ [8. 对象字典](#8-对象字典)  
+ [9. 共同条目/常见条目](#9-共同条目常见条目)  
+ [10. 设备控制](#10-设备控制)  
+ [11. 因素组/影响参数/影响因子  *（？歧义*](#11-因素组影响参数影响因子--歧义)  
+ [12. 轮廓位置模式](#12-轮廓位置模式)  
+ [13. 回归/回原模式](#13-回归回原模式)  
+ [14. 位置控制功能](#14-位置控制功能)
+ <!-- /TOC -->  
+
+---
+
 #### 1. 范围
 	>SCOPE 
 	
@@ -363,7 +382,7 @@ CONTENTS
 
 ---
 
-#### 13.  回归/回原模式
+#### 13. 回归/回原模式
 	>HOMING MODE  
 
     13.1. 一般信息
@@ -407,3 +426,71 @@ CONTENTS
 
         13.4.1. 回归/回原方法
             >Homing methods 
+		
+---
+	
+#### 14. 位置控制功能  
+	>POSITION CONTROL FUNCTION
+
+	14.1. 一般信息  
+	>General information 
+
+		14.1.1. 跟随/跟踪错误   
+		>Following error
+
+		14.1.2. 到达位置  
+		>Position reached
+
+		14.1.3. 输入数据描述  
+		>Input data description
+
+		14.1.4. 输出数据描述  
+		>Output data description 
+
+	14.2. 对象字典条目  
+	>Object dictionary entries
+
+		14.2.1. 本章定义的对象  
+		>Objects defined in this chapter
+
+		14.2.2. 其他章节中定义的对象  
+		>Objects defined in other chapters
+
+	14.3. 对象描述  
+	>Object description
+
+		14.3.1. 对象6062h：位置需求值  
+		>Object 6062h: Position demand value
+
+		14.3.2. 对象6063h：定位实际值*  
+		>Object 6063h: Position actual value*
+
+		14.3.3. 对象6064h：定位实际值  
+		>Object 6064h: Position actual value 
+
+		14.3.4. 对象6065h：跟随/跟踪错误窗口  
+		>Object 6065h: Following error window
+		
+		14.3.5. 对象6066h：跟随/跟踪超时错误  
+		>Object 6066h: Following error time out
+		
+		14.3.6. 对象6067h：位置窗口  
+		>Object 6067h: Position window
+		
+		14.3.7. 对象6068h：位置窗口时间  
+		>Object 6068h : Position window time
+		
+		14.3.8. 对象60F4h：跟随错误实际值  
+		>Object 60F4h: Following error actual value
+		
+		14.3.9. 对象60FAh：控制工作  
+		>Object 60FAh: Control effort
+		
+		14.3.10. 对象60FBh：位置控制参数集  
+		>Object 60FBh: Position control parameter set
+		
+		14.3.11. 对象60FCh：位置需求值*  
+		>Object 60FCh: Position demand value*
+		
+	14.4. 功能说明
+	>Functional description 
