@@ -41,14 +41,17 @@ COB通信对象(CAN中的消息单元)，是CAN网络中的运输单位，CANOpe
 ### COB-ID
 COB消息的ID号/标识符,COB-ID号在网络中通常是唯一的,还确定了在MAC子层中的优先级
 >COB-ID COB-Identifier. Identifies a COB uniquely in a network. The identifier determines the priority of that COB in the MAC sub-layer too.
+__译注：COB-ID是确定PDO编号，并且将两侧设备数据统合在一起最重要的东西，当设备两侧所定义的协议中的COB-ID一致时，协议就建立起来了(拥有共同的ID号)__
 
 ### PDO   
 PDO是过程数据对象，是用于在设备之间交换数据的对象
 >PDO Process Data Object. Object for data exchange between several devices.
+__译注：PDO传输速率极快，但通常数据量较为简单，使用时有前提限制(NMT命令节点启动)，具体可参考CiA DS301内容__
 
 ### SDO   
 SDO是服务数据对象，通过访问对象进行对等通信
 >SDO Service Data Object. Peer to peer communication with access to the object dictionary of a device.
+__译注：PDO通常只在主控制器启动时下发数据，用于配置驱动器参数等__
 
 ### pp   
 轮廓位置模式
