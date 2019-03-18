@@ -19,6 +19,7 @@
 
 ---
 ***Data objects of the drive***
+
 | PDO                            | SDO                    | IDO                                           |
 | ------------------------------ | ---------------------- | --------------------------------------------- |
 | Process Data Object            | Service Data Object    | Internal Data Object                          |
@@ -45,7 +46,9 @@
 ---
 
 ***Communication architecture***
+
 ![通讯体系结构.png](./GraphicsAndTables/Figure_2.png)  
+
 图2.通讯体系结构
 >Figure 2: Communication architecture
 
@@ -97,7 +100,9 @@
 
 ---
 ***Functional architecture***
+
 ![函数结构](./GraphicsAndTables/Figure_3.png)
+
 图3: 函数结构
 >Figure 3: Functional architecture
 
@@ -111,7 +116,9 @@
 
 ---
 ***Possible structures of the control loop***
+
 ![控制回路的可能结构](./GraphicsAndTables/Figure_4.png)
+
 图4: 控制回路的可能结构
 >Figure 4: Possible structures of the control loop
 
