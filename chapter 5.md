@@ -1,69 +1,69 @@
 
-- [5. ¹¤×÷Ô­Àí](#5-¹¤×÷Ô­Àí)
-    - [5.1. ÒýÑÔ/½éÉÜ](#51-ÒýÑÔ½éÉÜ)
-    - [5.2. Í¨¹ý·ÖÎö½øÐÐ±ê×¼»¯](#52-Í¨¹ý·ÖÎö½øÐÐ±ê×¼»¯)
-    - [5.3. ¶ÔÏó×Öµä](#53-¶ÔÏó×Öµä)
-        - [5.3.1. Ë÷ÒýºÍ×ÓË÷ÒýµÄÊ¹ÓÃ](#531-Ë÷ÒýºÍ×ÓË÷ÒýµÄÊ¹ÓÃ)
+- [5. å·¥ä½œåŽŸç†](#5-å·¥ä½œåŽŸç†)
+    - [5.1. å¼•è¨€/ä»‹ç»](#51-å¼•è¨€ä»‹ç»)
+    - [5.2. é€šè¿‡åˆ†æžè¿›è¡Œæ ‡å‡†åŒ–](#52-é€šè¿‡åˆ†æžè¿›è¡Œæ ‡å‡†åŒ–)
+    - [5.3. å¯¹è±¡å­—å…¸](#53-å¯¹è±¡å­—å…¸)
+        - [5.3.1. ç´¢å¼•å’Œå­ç´¢å¼•çš„ä½¿ç”¨](#531-ç´¢å¼•å’Œå­ç´¢å¼•çš„ä½¿ç”¨)
 
 
 ---
 
-## 5. ¹¤×÷Ô­Àí  
+## 5. å·¥ä½œåŽŸç†  
 >OPERATING PRINCIPLE
 
-### 	5.1. ÒýÑÔ/½éÉÜ 
+### 	5.1. å¼•è¨€/ä»‹ç» 
 >Introduction 
 
-´ËÅäÖÃÎÄ¼þµÄÄ¿µÄÊÇÎªCANÍøÂçÉÏµÄÇý¶¯Æ÷Ìá¹©¿ÉÀí½âÇÒ¶ÀÌØµÄÐÐÎª¡£ ÓÃÓÚÇý¶¯Æ÷ºÍÔË¶¯¿ØÖÆµÄCANopenÉè±¸ÅäÖÃÎÄ¼þ½¨Á¢ÔÚ³ÆÎªCANopenµÄCANÍ¨ÐÅÅäÖÃÎÄ¼þÖ®ÉÏ£¬ÃèÊöÁËCANÍøÂçÖÐËùÓÐÉè±¸Í¨ÓÃµÄ»ù±¾Í¨ÐÅ»úÖÆ¡£
+æ­¤é…ç½®æ–‡ä»¶çš„ç›®çš„æ˜¯ä¸ºCANç½‘ç»œä¸Šçš„é©±åŠ¨å™¨æä¾›å¯ç†è§£ä¸”ç‹¬ç‰¹çš„è¡Œä¸ºã€‚ ç”¨äºŽé©±åŠ¨å™¨å’Œè¿åŠ¨æŽ§åˆ¶çš„CANopenè®¾å¤‡é…ç½®æ–‡ä»¶å»ºç«‹åœ¨ç§°ä¸ºCANopençš„CANé€šä¿¡é…ç½®æ–‡ä»¶ä¹‹ä¸Šï¼Œæè¿°äº†CANç½‘ç»œä¸­æ‰€æœ‰è®¾å¤‡é€šç”¨çš„åŸºæœ¬é€šä¿¡æœºåˆ¶ã€‚
 >The purpose of this profile is, to give drives an understandable and unique behavior on the CANnetwork. The CANopen Device Profile for Drives and Motion Control is built on top of a CANcommunication profile, called CANopen, describing the basic communication mechanisms common toall devices at the CAN-network.
 
-Çý¶¯µ¥ÔªµÄÄ¿µÄÊÇ½«Öá¿ØÖÆÆ÷»òÆäËûÔË¶¯¿ØÖÆ²úÆ·Á¬½Óµ½CAN×ÜÏß¡£ ËüÃÇ¿ÉÒÔ½ÓÊÕÍ¨³£ÓÃÓÚI/OÅäÖÃµÄ·þÎñÊý¾Ý¶ÔÏóËù×öµÄÅäÖÃÐÅÏ¢£¬ÏÞÖÆÀ©Õ¹²ÎÊý»òÓ¦ÓÃ³ÌÐòµÄÌØ¶¨²ÎÊý¡£ ÔÚÔËÐÐÊ±£¬¿ÉÒÔÍ¨¹ýÂÖÑ¯»òÊÂ¼þÇý¶¯£¨ÖÐ¶Ï£©Í¨¹ýCAN×ÜÏß´ÓÇý¶¯µ¥Ôª»ñÈ¡Êý¾Ý¡£
+é©±åŠ¨å•å…ƒçš„ç›®çš„æ˜¯å°†è½´æŽ§åˆ¶å™¨æˆ–å…¶ä»–è¿åŠ¨æŽ§åˆ¶äº§å“è¿žæŽ¥åˆ°CANæ€»çº¿ã€‚ å®ƒä»¬å¯ä»¥æŽ¥æ”¶é€šå¸¸ç”¨äºŽI/Oé…ç½®çš„æœåŠ¡æ•°æ®å¯¹è±¡æ‰€åšçš„é…ç½®ä¿¡æ¯ï¼Œé™åˆ¶æ‰©å±•å‚æ•°æˆ–åº”ç”¨ç¨‹åºçš„ç‰¹å®šå‚æ•°ã€‚ åœ¨è¿è¡Œæ—¶ï¼Œå¯ä»¥é€šè¿‡è½®è¯¢æˆ–äº‹ä»¶é©±åŠ¨ï¼ˆä¸­æ–­ï¼‰é€šè¿‡CANæ€»çº¿ä»Žé©±åŠ¨å•å…ƒèŽ·å–æ•°æ®ã€‚
 >The purpose of drive units is to connect axle controllers or other motion control products to the CAN bus. They can receive configuration information what is done via service data objects normally for I/O configurations, limit parameters for scaling or application specific parameters. At run time, data can be obtained from the drive unit via CAN bus by either polling or event driven (interrupt).
 
-ÔË¶¯¿ØÖÆ²úÆ·¾ßÓÐÓÃÓÚÊµÊ±²Ù×÷µÄ¹ý³ÌÊý¾Ý¶ÔÏóÓ³Éä(PDO)£¬Æä¿ÉÒÔÊ¹ÓÃ·þÎñÊý¾Ý¶ÔÏó(SDO)À´ÅäÖÃ£¨²Î¼û/3/£©¡£ ¸ÃÍ¨ÐÅÐÅµÀÓÃÓÚ½»»»ÊµÊ±Êý¾Ý£¬ÈçÉè¶¨µã»òÊµ¼ÊÖµ£¬ÈçÎ»ÖÃÊµ¼ÊÖµ
+è¿åŠ¨æŽ§åˆ¶äº§å“å…·æœ‰ç”¨äºŽå®žæ—¶æ“ä½œçš„è¿‡ç¨‹æ•°æ®å¯¹è±¡æ˜ å°„(PDO)ï¼Œå…¶å¯ä»¥ä½¿ç”¨æœåŠ¡æ•°æ®å¯¹è±¡(SDO)æ¥é…ç½®ï¼ˆå‚è§/3/ï¼‰ã€‚ è¯¥é€šä¿¡ä¿¡é“ç”¨äºŽäº¤æ¢å®žæ—¶æ•°æ®ï¼Œå¦‚è®¾å®šç‚¹æˆ–å®žé™…å€¼ï¼Œå¦‚ä½ç½®å®žé™…å€¼
 >The motion control products have a process data object mapping for real time operation, which may be configured using service data objects (see /3/). This communication channel is used to interchange real-time data like set-points or actual values like a position actual value e.g.
 
-### 	5.2. Í¨¹ý·ÖÎö½øÐÐ±ê×¼»¯ 
+### 	5.2. é€šè¿‡åˆ†æžè¿›è¡Œæ ‡å‡†åŒ– 
 >Standardization via profiling. 
 	
-Éè±¸¹æ·¶µÄÅäÖÃÎÄ¼þ·½·¨µÄÁ½¸öÖ÷ÒªÓÅµãÔÚÓÚÏµÍ³¼¯³ÉºÍÉè±¸±ê×¼»¯¡£
+è®¾å¤‡è§„èŒƒçš„é…ç½®æ–‡ä»¶æ–¹æ³•çš„ä¸¤ä¸ªä¸»è¦ä¼˜ç‚¹åœ¨äºŽç³»ç»Ÿé›†æˆå’Œè®¾å¤‡æ ‡å‡†åŒ–ã€‚
 >The two principal advantages of the profile approach for device specification are in the areas of system integration and device standardization. 
 
-Èç¹ûÁ½¸ö¶ÀÁ¢Éè±¸ÖÆÔìÉÌÉè¼Æ±ØÐëÍ¨ÐÅµÄ²úÆ·£¬Ôò±ØÐëÎªÁ½¸öÖÆÔìÉÌÌá¹©ÁíÒ»¸öÖÆÔìÉÌµÄÉè±¸¹æ·¶£¨À´Ê¹Á½¸ö²úÆ·¼æÈÝ£©¡£ ÕâÐ©¹æ·¶ÔÚÕýÊ½ºÍÊõÓï·½Ãæ½«Òò¹«Ë¾¶øÒì¡£ Éè±¸ÅäÖÃÎÄ¼þµÄ¸ÅÄîÌá¹©ÁËÉú³É´ËÀà¹æ·¶µÄ±ê×¼¡£ Í¨¹ý²ÉÓÃÕâÖÖ·½·¨£¬ËùÓÐÖÆÔìÉÌ¶¼½«ÒÔÀàËÆµÄ·½Ê½Ö¸¶¨ËûÃÇµÄÉè±¸£¬Õâ´ó´ó¼õÉÙÁËÏµÍ³¼¯³ÉµÄ¹¤×÷Á¿¡£
+å¦‚æžœä¸¤ä¸ªç‹¬ç«‹è®¾å¤‡åˆ¶é€ å•†è®¾è®¡å¿…é¡»é€šä¿¡çš„äº§å“ï¼Œåˆ™å¿…é¡»ä¸ºä¸¤ä¸ªåˆ¶é€ å•†æä¾›å¦ä¸€ä¸ªåˆ¶é€ å•†çš„è®¾å¤‡è§„èŒƒï¼ˆæ¥ä½¿ä¸¤ä¸ªäº§å“å…¼å®¹ï¼‰ã€‚ è¿™äº›è§„èŒƒåœ¨æ­£å¼å’Œæœ¯è¯­æ–¹é¢å°†å› å…¬å¸è€Œå¼‚ã€‚ è®¾å¤‡é…ç½®æ–‡ä»¶çš„æ¦‚å¿µæä¾›äº†ç”Ÿæˆæ­¤ç±»è§„èŒƒçš„æ ‡å‡†ã€‚ é€šè¿‡é‡‡ç”¨è¿™ç§æ–¹æ³•ï¼Œæ‰€æœ‰åˆ¶é€ å•†éƒ½å°†ä»¥ç±»ä¼¼çš„æ–¹å¼æŒ‡å®šä»–ä»¬çš„è®¾å¤‡ï¼Œè¿™å¤§å¤§å‡å°‘äº†ç³»ç»Ÿé›†æˆçš„å·¥ä½œé‡ã€‚
 >If two independent device manufacturers design products that have to communicate, then both manufacturers must be provided with a device specification from the other one. These specifications will widely differ in formal and terminological aspects from one company to another. The concept of device profiling provides a standard for producing such specifications. By adopting this approach, all manufacturers will specify their devices in a similar fashion, what greatly reduces the effort involved in system integration.
 
-ÓÃÓÚÉè±¸¹æ·¶µÄÅäÖÃÎÄ¼þµÄ·½·¨µÄÁíÒ»Ã÷ÏÔµÄÓÅµãÊÇ£¬Ëü¿ÉÒÔÓÃÓÚÖ¸µ¼ÖÆÔìÉÌÉú²ú±ê×¼»¯Éè±¸¡£ ±ê×¼»¯Éè±¸µÄÓÅµãºÜ¶à¡£ ×îÖØÒªµÄÊÇ£¬±ê×¼»¯Éè±¸½«ÏµÍ³¼¯³ÉÉÌÓëÌØ¶¨¹©Ó¦ÉÌ·ÖÀë¡£ Èç¹ûÒ»¸ö¹©Ó¦ÉÌÎÞ·¨Âú×ãÌØÊâµÄÓ¦ÓÃÐèÇó£¬ÏµÍ³Éè¼ÆÈËÔ±¿ÉÒÔÇáËÉµØÊ¹ÓÃÆäËû¹©Ó¦ÉÌÌá¹©µÄÉè±¸¡£ ÁíÒ»·½Ãæ£¬Éè±¸ÖÆÔìÉÌ²»ÔÙ±»ÆÈÎªÃ¿¸ö¿Í»§ÊµÊ©Ë½ÓÐÐ­Òé¡£
+ç”¨äºŽè®¾å¤‡è§„èŒƒçš„é…ç½®æ–‡ä»¶çš„æ–¹æ³•çš„å¦ä¸€æ˜Žæ˜¾çš„ä¼˜ç‚¹æ˜¯ï¼Œå®ƒå¯ä»¥ç”¨äºŽæŒ‡å¯¼åˆ¶é€ å•†ç”Ÿäº§æ ‡å‡†åŒ–è®¾å¤‡ã€‚ æ ‡å‡†åŒ–è®¾å¤‡çš„ä¼˜ç‚¹å¾ˆå¤šã€‚ æœ€é‡è¦çš„æ˜¯ï¼Œæ ‡å‡†åŒ–è®¾å¤‡å°†ç³»ç»Ÿé›†æˆå•†ä¸Žç‰¹å®šä¾›åº”å•†åˆ†ç¦»ã€‚ å¦‚æžœä¸€ä¸ªä¾›åº”å•†æ— æ³•æ»¡è¶³ç‰¹æ®Šçš„åº”ç”¨éœ€æ±‚ï¼Œç³»ç»Ÿè®¾è®¡äººå‘˜å¯ä»¥è½»æ¾åœ°ä½¿ç”¨å…¶ä»–ä¾›åº”å•†æä¾›çš„è®¾å¤‡ã€‚ å¦ä¸€æ–¹é¢ï¼Œè®¾å¤‡åˆ¶é€ å•†ä¸å†è¢«è¿«ä¸ºæ¯ä¸ªå®¢æˆ·å®žæ–½ç§æœ‰åè®®ã€‚
 >The other obvious advantage of the profile approach for device specification is, that it can be used to guide manufacturers into producing standardized devices. The advantages of standardized devices are numerous. Perhaps most important is the idea, that a standardized device decouples a system integrator from a specific supplier. If one supplier cannot meet special application demands, a system designer can use devices from another supplier with reduced effort. On the other hand the device manufacturers are not forced any more to implement private protocols for each customer.
 
-Éè±¸ÅäÖÃÎÄ¼þ¶¨ÒåÁË¡°±ê×¼¡±Éè±¸¡£ ´Ë±ê×¼Éè±¸´ú±íÕæÕýµÄ»ù±¾¹¦ÄÜ£¬´ËÉè±¸ÀàÖÐµÄÃ¿¸öÉè±¸¶¼±ØÐëÖ§³Ö¡£ ÕâÖÖÇ¿ÖÆÐÔ¹¦ÄÜ¶ÔÓÚÈ·±£ÖÁÉÙ¼òµ¥µÄ·ÇÖÆÔìÉÌÌØ¶¨µÄÉè±¸²Ù×÷ÊÇ±ØÒªµÄ¡£ ÀýÈç£¬±ê×¼Çý¶¯µ¥ÔªÌá¹©¡°¿ìËÙÍ£Ö¹¡±¹¦ÄÜÀ´Í£Ö¹Çý¶¯Æ÷¡£ ´Ë¹¦ÄÜ±»¶¨ÒåÎª±ØÐè¹¦ÄÜ£¬Òò´Ë¿ÉÒÔÊ¹ÓÃÏàÍ¬µÄÏûÏ¢ÔÝÍ£Ö§³ÖÇý¶¯Æ÷ºÍÔË¶¯¿ØÖÆµÄCANopenÉè±¸ÅäÖÃÎÄ¼þµÄÈÎºÎÇý¶¯Æ÷µ¥Ôª¡£
->A device profile defines a ¡®standard¡¯ device. This standard device represents really basic functionality, every device within this device class must support. This mandatory functionality is necessary to ensure, that at least simple non-manufacturer-specific operation of a device is possible. For example the standard drive unit provides a 'Quick stop' function to stop a drive. This function is defined as mandatory, such that any drive unit supporting the CANopen Device Profile for Drives and Motion Control, can be halted using the same message. 
+è®¾å¤‡é…ç½®æ–‡ä»¶å®šä¹‰äº†â€œæ ‡å‡†â€è®¾å¤‡ã€‚ æ­¤æ ‡å‡†è®¾å¤‡ä»£è¡¨çœŸæ­£çš„åŸºæœ¬åŠŸèƒ½ï¼Œæ­¤è®¾å¤‡ç±»ä¸­çš„æ¯ä¸ªè®¾å¤‡éƒ½å¿…é¡»æ”¯æŒã€‚ è¿™ç§å¼ºåˆ¶æ€§åŠŸèƒ½å¯¹äºŽç¡®ä¿è‡³å°‘ç®€å•çš„éžåˆ¶é€ å•†ç‰¹å®šçš„è®¾å¤‡æ“ä½œæ˜¯å¿…è¦çš„ã€‚ ä¾‹å¦‚ï¼Œæ ‡å‡†é©±åŠ¨å•å…ƒæä¾›â€œå¿«é€Ÿåœæ­¢â€åŠŸèƒ½æ¥åœæ­¢é©±åŠ¨å™¨ã€‚ æ­¤åŠŸèƒ½è¢«å®šä¹‰ä¸ºå¿…éœ€åŠŸèƒ½ï¼Œå› æ­¤å¯ä»¥ä½¿ç”¨ç›¸åŒçš„æ¶ˆæ¯æš‚åœæ”¯æŒé©±åŠ¨å™¨å’Œè¿åŠ¨æŽ§åˆ¶çš„CANopenè®¾å¤‡é…ç½®æ–‡ä»¶çš„ä»»ä½•é©±åŠ¨å™¨å•å…ƒã€‚
+>A device profile defines a â€˜standardâ€™ device. This standard device represents really basic functionality, every device within this device class must support. This mandatory functionality is necessary to ensure, that at least simple non-manufacturer-specific operation of a device is possible. For example the standard drive unit provides a 'Quick stop' function to stop a drive. This function is defined as mandatory, such that any drive unit supporting the CANopen Device Profile for Drives and Motion Control, can be halted using the same message. 
 
-Éè±¸±ê×¼»¯µÄ¸ÅÄîÍ¨¹ý±ê×¼»¯Éè±¸ÅäÖÃÎÄ¼þÖÐ¶¨ÒåµÄ¿ÉÑ¡¹¦ÄÜµÄ¸ÅÄî½øÐÐÀ©Õ¹¡£ ËùÓÐÖÆÔìÉÌ¶¼²»±Ø±ØÐëÊµÏÖÕâÖÖ¿ÉÑ¡¹¦ÄÜ¡£ µ«ÊÇ£¬Èç¹ûÖÆÔìÉÌÊµÊ©ÕâÖÖ¹¦ÄÜ£¬Ëû±ØÐëÒÔ¹Ì¶¨µÄ·½Ê½ÕâÑù×ö¡£
+è®¾å¤‡æ ‡å‡†åŒ–çš„æ¦‚å¿µé€šè¿‡æ ‡å‡†åŒ–è®¾å¤‡é…ç½®æ–‡ä»¶ä¸­å®šä¹‰çš„å¯é€‰åŠŸèƒ½çš„æ¦‚å¿µè¿›è¡Œæ‰©å±•ã€‚ æ‰€æœ‰åˆ¶é€ å•†éƒ½ä¸å¿…å¿…é¡»å®žçŽ°è¿™ç§å¯é€‰åŠŸèƒ½ã€‚ ä½†æ˜¯ï¼Œå¦‚æžœåˆ¶é€ å•†å®žæ–½è¿™ç§åŠŸèƒ½ï¼Œä»–å¿…é¡»ä»¥å›ºå®šçš„æ–¹å¼è¿™æ ·åšã€‚
 >The concept of device standardization is extended by the notion of optional functionality defined within the standardized device profile. Such optional functionality does not have to be implemented by all manufacturers. However, if a manufacturer implements such functionality he must do so in a fixed manner.
 
-Ìá¹©¿ÉÑ¡¹¦ÄÜÊÇÒ»ÖÖ·Ç³£Ç¿´óµÄ»úÖÆ£¬¿ÉÈ·±£ËùÓÐÖÆÔìÉÌÒÔ¶¨ÒåµÄ·½Ê½ÊµÏÖÌØ¶¨¹¦ÄÜ¡£ ÀýÈç£¬Éè±¸ÅäÖÃÎÄ¼þÒ²°üÀ¨¶àÖáÄ£¿é£¬ÕâÈÔÈ»²»ÊÇºÜ³£¼û¡£ Í¨¹ý¶¨Òå¶Ô²»Í¬ÖáµÄ±ê×¼»¯·ÃÎÊ£¬À´×Ô²»Í¬ÖÆÔìÉÌµÄ½»»»Éè±¸±äµÃ¸üÈÝÒ×¡£
+æä¾›å¯é€‰åŠŸèƒ½æ˜¯ä¸€ç§éžå¸¸å¼ºå¤§çš„æœºåˆ¶ï¼Œå¯ç¡®ä¿æ‰€æœ‰åˆ¶é€ å•†ä»¥å®šä¹‰çš„æ–¹å¼å®žçŽ°ç‰¹å®šåŠŸèƒ½ã€‚ ä¾‹å¦‚ï¼Œè®¾å¤‡é…ç½®æ–‡ä»¶ä¹ŸåŒ…æ‹¬å¤šè½´æ¨¡å—ï¼Œè¿™ä»ç„¶ä¸æ˜¯å¾ˆå¸¸è§ã€‚ é€šè¿‡å®šä¹‰å¯¹ä¸åŒè½´çš„æ ‡å‡†åŒ–è®¿é—®ï¼Œæ¥è‡ªä¸åŒåˆ¶é€ å•†çš„äº¤æ¢è®¾å¤‡å˜å¾—æ›´å®¹æ˜“ã€‚
 >Providing optional functionality is a very powerful mechanism to ensure all manufacturers implementing particular functionality in a defined fashion. For example, the device profile covers multiaxles modules as well, which are still not very common. By defining a standardized access to the different axles, interchanging devices from different manufacturers becomes easier. 
 
-Éè±¸ÅäÖÃÎÄ¼þÌá¹©ÁËÒ»ÖÖ»úÖÆ£¬Ï£ÍûÊµÏÖÕæÕýµÄÖÆÔìÉÌÌØ¶¨¹¦ÄÜµÄÖÆÔìÉÌÒ²¿ÉÒÔÕâÑù×ö¡£ ÕâÏÔÈ»ÊÇ±ØÒªµÄ£¬ÒòÎªÎÞ·¨Ô¤²âËùÓÐ¿ÉÄÜµÄÉè±¸¹¦ÄÜ²¢ÔÚÃ¿¸öÉè±¸ÀàµÄ¿ÉÑ¡Àà±ðÖÐ¶¨ÒåËü¡£ ÕâÒ»¸ÅÄî±£Ö¤ÁË±ê×¼Éè±¸ÅäÖÃÎÄ¼þ¡°ÃæÏòÎ´À´¡±¡£
+è®¾å¤‡é…ç½®æ–‡ä»¶æä¾›äº†ä¸€ç§æœºåˆ¶ï¼Œå¸Œæœ›å®žçŽ°çœŸæ­£çš„åˆ¶é€ å•†ç‰¹å®šåŠŸèƒ½çš„åˆ¶é€ å•†ä¹Ÿå¯ä»¥è¿™æ ·åšã€‚ è¿™æ˜¾ç„¶æ˜¯å¿…è¦çš„ï¼Œå› ä¸ºæ— æ³•é¢„æµ‹æ‰€æœ‰å¯èƒ½çš„è®¾å¤‡åŠŸèƒ½å¹¶åœ¨æ¯ä¸ªè®¾å¤‡ç±»çš„å¯é€‰ç±»åˆ«ä¸­å®šä¹‰å®ƒã€‚ è¿™ä¸€æ¦‚å¿µä¿è¯äº†æ ‡å‡†è®¾å¤‡é…ç½®æ–‡ä»¶â€œé¢å‘æœªæ¥â€ã€‚
 >The device profiles provide a mechanism by which manufacturers wishing to implement truly manufacturer specific functionality can do so as well. This is clearly necessary since it would be impossible to anticipate all possible device functionality and define this in the optional category of each device class. This concept guarantees that the standard device profiles are 'future-proof'. 
 
-Í¨¹ý¶¨ÒåÇ¿ÖÆÉè±¸ÌØÐÔ£¬¿ÉÒÔ±£Ö¤»ù±¾µÄÍøÂç²Ù×÷¡£ Í¨¹ý¶¨Òå¿ÉÑ¡µÄÉè±¸¹¦ÄÜ£¬¿ÉÒÔÄÚÖÃÒ»¶¨³Ì¶ÈµÄÁé»îÐÔ¡£Í¨¹ýÎªÖÆÔìÉÌÌØ¶¨µÄ¹¦ÄÜÁôÏÂ¡°¹³×Ó¡±£¬ÖÆÔìÉÌ½«²»»áÊÜÏÞÓÚ¹ýÊ±µÄ±ê×¼¡£
+é€šè¿‡å®šä¹‰å¼ºåˆ¶è®¾å¤‡ç‰¹æ€§ï¼Œå¯ä»¥ä¿è¯åŸºæœ¬çš„ç½‘ç»œæ“ä½œã€‚ é€šè¿‡å®šä¹‰å¯é€‰çš„è®¾å¤‡åŠŸèƒ½ï¼Œå¯ä»¥å†…ç½®ä¸€å®šç¨‹åº¦çš„çµæ´»æ€§ã€‚é€šè¿‡ä¸ºåˆ¶é€ å•†ç‰¹å®šçš„åŠŸèƒ½ç•™ä¸‹â€œé’©å­â€ï¼Œåˆ¶é€ å•†å°†ä¸ä¼šå—é™äºŽè¿‡æ—¶çš„æ ‡å‡†ã€‚
 >By defining mandatory device characteristics, basic network operation is guaranteed. By defining optional device features a degree of defined flexibility can be built in. By leaving 'hooks' for manufacturer specific functionality, manufacturers will not be constrained to an out-of-date standard.
 
 
-### 	5.3. ¶ÔÏó×Öµä 
+### 	5.3. å¯¹è±¡å­—å…¸ 
 >The object dictionary 
 
-Éè±¸ÅäÖÃÎÄ¼þÖÐ×îÖØÒªµÄ²¿·ÖÊÇ¶ÔÏó×ÖµäÃèÊö¡£ ¶ÔÏó×Öµä±¾ÖÊÉÏÊÇÍ¨¹ýÍøÂçÒÔÓÐÐòµÄÔ¤¶¨Òå·½Ê½·ÃÎÊµÄ¶ÔÏóµÄ·Ö×é¡£ Ê¹ÓÃ16Î»Ë÷Òý¶Ô×ÖµäÖÐµÄÃ¿¸ö¶ÔÏó½øÐÐÑ°Ö·£¬¶ÔÏó×Öµä×î¶à°üº¬65536¸öÌõÄ¿¡£
+è®¾å¤‡é…ç½®æ–‡ä»¶ä¸­æœ€é‡è¦çš„éƒ¨åˆ†æ˜¯å¯¹è±¡å­—å…¸æè¿°ã€‚ å¯¹è±¡å­—å…¸æœ¬è´¨ä¸Šæ˜¯é€šè¿‡ç½‘ç»œä»¥æœ‰åºçš„é¢„å®šä¹‰æ–¹å¼è®¿é—®çš„å¯¹è±¡çš„åˆ†ç»„ã€‚ ä½¿ç”¨16ä½ç´¢å¼•å¯¹å­—å…¸ä¸­çš„æ¯ä¸ªå¯¹è±¡è¿›è¡Œå¯»å€ï¼Œå¯¹è±¡å­—å…¸æœ€å¤šåŒ…å«65536ä¸ªæ¡ç›®ã€‚
 >The most important part of a device profile is the object dictionary description. The object dictionary is essentially a grouping of objects accessible via the network in an ordered pre-defined fashion. Each object within the dictionary is addressed using a 16-bit index so that the object dictionary may contain a maximum of 65536 entries.
 
-Õâ¸öµÄ²¼¾ÖÓëÆäËûÏÖ³¡×ÜÏßÏµÍ³µÄÉè±¸ÅäÖÃÎÄ¼þÊÇ½ôÃÜÒ»ÖÂµÄ£¬Ïê¼û/3/¡£
+è¿™ä¸ªçš„å¸ƒå±€ä¸Žå…¶ä»–çŽ°åœºæ€»çº¿ç³»ç»Ÿçš„è®¾å¤‡é…ç½®æ–‡ä»¶æ˜¯ç´§å¯†ä¸€è‡´çš„ï¼Œè¯¦è§/3/ã€‚
 >The layout closely conforms with device profiles for other field bus systems and is described in detail in /3/. 
 
-Ë÷Òý6000hµ½9fffh´¦µÄ±ê×¼»¯Éè±¸ÅäÖÃÎÄ¼þÇøÓò°üº¬Ò»ÀàÉè±¸¹²Í¬µÄËùÓÐÊý¾Ý¶ÔÏó£¬ÕâÐ©Éè±¸¿ÉÒÔÍ¨¹ýÍøÂç¶ÁÈ¡»òÐ´Èë¡£Çý¶¯Æ÷ÅäÖÃÎÄ¼þÊ¹ÓÃ´Ó6000hµ½9fffhµÄÌõÄ¿ÃèÊöÇý¶¯Æ÷²ÎÊýºÍÇý¶¯Æ÷¹¦ÄÜ¡£ÔÚÕâ¸ö·¶Î§ÄÚ£¬×î¶à¿ÉÒÔÊµÏÖ8¸öÖá¡£´ËÍâ£¬»¹¿ÉÒÔÃèÊöÓëÇý¶¯Æ÷×éºÏµÄ¿ÉÑ¡I/OÄ£¿é¡£ÕâÐ©I/OÄ£¿é±ØÐë·ûºÏDS 401£¨¼û/4/£©µÄÒªÇó£¬²¢ÇÒ¿ÉÒÔ´úÌæÖáÀ´ÊµÏÖ¡£¶ÔÓÚ±ê×¼Çý¶¯Æ÷£¬±ØÐëÔÚ6000hµ½67ffhÖ®¼äÇÐ»»¡£Ë÷Òý060hµ½0fffhºÍA000hµ½ffff»¹ÓÐÁ½¸ö±£ÁôÇø£¬¹©Í¨ÐÅ»òÇý¶¯Æ÷ÅäÖÃÎÄ¼þ½«À´Ê¹ÓÃ¡£
+ç´¢å¼•6000håˆ°9fffhå¤„çš„æ ‡å‡†åŒ–è®¾å¤‡é…ç½®æ–‡ä»¶åŒºåŸŸåŒ…å«ä¸€ç±»è®¾å¤‡å…±åŒçš„æ‰€æœ‰æ•°æ®å¯¹è±¡ï¼Œè¿™äº›è®¾å¤‡å¯ä»¥é€šè¿‡ç½‘ç»œè¯»å–æˆ–å†™å…¥ã€‚é©±åŠ¨å™¨é…ç½®æ–‡ä»¶ä½¿ç”¨ä»Ž6000håˆ°9fffhçš„æ¡ç›®æè¿°é©±åŠ¨å™¨å‚æ•°å’Œé©±åŠ¨å™¨åŠŸèƒ½ã€‚åœ¨è¿™ä¸ªèŒƒå›´å†…ï¼Œæœ€å¤šå¯ä»¥å®žçŽ°8ä¸ªè½´ã€‚æ­¤å¤–ï¼Œè¿˜å¯ä»¥æè¿°ä¸Žé©±åŠ¨å™¨ç»„åˆçš„å¯é€‰I/Oæ¨¡å—ã€‚è¿™äº›I/Oæ¨¡å—å¿…é¡»ç¬¦åˆDS 401ï¼ˆè§/4/ï¼‰çš„è¦æ±‚ï¼Œå¹¶ä¸”å¯ä»¥ä»£æ›¿è½´æ¥å®žçŽ°ã€‚å¯¹äºŽæ ‡å‡†é©±åŠ¨å™¨ï¼Œå¿…é¡»åœ¨6000håˆ°67ffhä¹‹é—´åˆ‡æ¢ã€‚ç´¢å¼•060håˆ°0fffhå’ŒA000håˆ°ffffè¿˜æœ‰ä¸¤ä¸ªä¿ç•™åŒºï¼Œä¾›é€šä¿¡æˆ–é©±åŠ¨å™¨é…ç½®æ–‡ä»¶å°†æ¥ä½¿ç”¨ã€‚
 >The standardized device profile area at indices 6000h through 9FFFh contains all data objects common to a class of devices that can be read or written via the network. The drives profile uses entries from 6000h to 9FFFh to describe the drive parameters and the drive functionality. Within this range up to 8 axles can be realized. Additional it is possible to describe optional I/O modules combined with the drive. These I/O modules must conform to DS 401 (see /4/) and can be implemented instead of an axle. For standard drives only the range 6000h to 67FFh  is mandatory. There are also two reserved areas at indices 060h through 0FFFh and A000h through FFFFh for future use by the communication or drive profile. 
 	
-¶ÔÓÚ¶àÖáÉè±¸£¬¶ÔÏó·¶Î§6000hÖÁ67FFhµÄÒÆÎ»ÈçÏÂ£º
+å¯¹äºŽå¤šè½´è®¾å¤‡ï¼Œå¯¹è±¡èŒƒå›´6000hè‡³67FFhçš„ç§»ä½å¦‚ä¸‹ï¼š
 >For multi axles devices the object range 6000h to 67FFh is shifted as follows:
 
 
@@ -85,7 +85,7 @@
 
 
 
-####		5.3.1. Ë÷ÒýºÍ×ÓË÷ÒýµÄÊ¹ÓÃ 
+####		5.3.1. ç´¢å¼•å’Œå­ç´¢å¼•çš„ä½¿ç”¨ 
 >Index and sub-index usage 
 
 
@@ -94,9 +94,9 @@
 
 ***Communication architecture***
 
-![Í¨Ñ¶ÌåÏµ½á¹¹.png](./GraphicsAndTables/Figure_2.png)  
+![é€šè®¯ä½“ç³»ç»“æž„.png](./GraphicsAndTables/Figure_2.png)  
 
-Í¼2.Í¨Ñ¶ÌåÏµ½á¹¹
+å›¾2.é€šè®¯ä½“ç³»ç»“æž„
 >Figure 2: Communication architecture
 
 ---
