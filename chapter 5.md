@@ -63,6 +63,28 @@
 索引6000h到9fffh处的标准化设备配置文件区域包含一类设备共同的所有数据对象，这些设备可以通过网络读取或写入。驱动器配置文件使用从6000h到9fffh的条目描述驱动器参数和驱动器功能。在这个范围内，最多可以实现8个轴。此外，还可以描述与驱动器组合的可选I/O模块。这些I/O模块必须符合DS 401（见/4/）的要求，并且可以代替轴来实现。对于标准驱动器，必须在6000h到67ffh之间切换。索引060h到0fffh和A000h到ffff还有两个保留区，供通信或驱动器配置文件将来使用。
 >The standardized device profile area at indices 6000h through 9FFFh contains all data objects common to a class of devices that can be read or written via the network. The drives profile uses entries from 6000h to 9FFFh to describe the drive parameters and the drive functionality. Within this range up to 8 axles can be realized. Additional it is possible to describe optional I/O modules combined with the drive. These I/O modules must conform to DS 401 (see /4/) and can be implemented instead of an axle. For standard drives only the range 6000h to 67FFh  is mandatory. There are also two reserved areas at indices 060h through 0FFFh and A000h through FFFFh for future use by the communication or drive profile. 
 	
+对于多轴设备，对象范围6000h至67FFh的移位如下：
+>For multi axles devices the object range 6000h to 67FFh is shifted as follows:
+
+
+6000h to 67FFh axle 0 
+
+6800h to 6FFFh axle 1 
+
+7000h to 77FFh axle 2 
+
+7800h to 7FFFh axle 3 
+
+8000h to 87FFh axle 4 
+
+8800h to 8FFFh axle 5 
+
+9000h to 97FFh axle 6 
+
+9800h to 9FFFh axle 7
+
+
+
 ####		5.3.1. 索引和子索引的使用 
 >Index and sub-index usage 
 
